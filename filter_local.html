@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+  <title>grid-stock filter</title>        
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1" />
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1 minimum-scale=1" />	  
+
+
+<!--jquery ui css files-->
+ <link href="lib/jquery-ui/jquery-ui.css" rel="stylesheet" />
+ <link href="lib/jquery-ui/jquery-ui.structure.css" rel="stylesheet" />
+ <link href="lib/jquery-ui/jquery-ui.theme.css" rel="stylesheet" />
+ <link href="lib/jquery-ui/themes/smoothness/jquery-ui.css" / rel="stylesheet">
+
+ <!--Download the compressed, production jQuery 3.5.1 -->
+ <script src="lib/jquery/jquery-3.5.1.js"></script>
+ <!--script src="lib/jquery/jquery-3.4.1.js"></script> -->
+
+
+ <script src="lib/jquery-ui/jquery-ui.js"></script>
+ 
+
+<!--ParamQuery Grid css files-->
+  <link href="lib/pqgrid-7.5.0/pqgrid.dev.css" rel="stylesheet" />
+  <link href="lib/pqgrid-7.5.0/pqgrid.ui.dev.css" rel="stylesheet" />
+  <link href="lib/pqgrid-7.5.0/themes/steelblue/pqgrid.css" rel="stylesheet" />
+
+  <!--ParamQuery Grid js files-->
+  <script src="lib/pqgrid-7.5.0/pqgrid.dev.js" ></script>  
+
+  <!--ParamQuery Grid localization file (necessary since v5.2.0)-->
+  <script src="lib/pqgrid-7.5.0/localize/pq-localize-kr.js"></script>
+  
+    
+<script src="lib/jszip-2.6.1/jszip.min.js"></script>
+<script src="lib/jszip-2.6.1/FileSaver.js"></script>    
+
+<style>
+  
+</style>
+</head>
+
+<body >
+    <!-- 데이터 파일-->
+    <script src="Content/stock_ko.js" ></script>
+
+    <script src="filter_local.js" ></script>
+    <div id="grid_search" style="margin: auto;"></div>
+
+
+</body>
+</html>
